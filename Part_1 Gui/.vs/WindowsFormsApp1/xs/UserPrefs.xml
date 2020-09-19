@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{FB88396D-9365-4B0B-B158-047992D61CD5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WindowsFormsApp1/Form1.cs">
+    <Files>
+      <File FileName="WindowsFormsApp1/Form1.cs" Line="1" Column="1" />
+      <File FileName="WindowsFormsApp1/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WindowsFormsApp1" expanded="True">
+            <Node name="WindowsFormsApp1" expanded="True">
+              <Node name="Form1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WindowsFormsApp1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
