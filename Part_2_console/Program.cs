@@ -62,14 +62,20 @@ namespace Part_2
             decimal r = decimal.Parse(R) / 100;
             decimal g = decimal.Parse(G) / 100;
 
+            try
+            {
+                decimal total = p / (r - g) * (decimal)(1 - Math.Pow((double)((1 + g) / (1 + r)), n));
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Present value : $ {0:N2}", total);
+                Console.ResetColor();
+            } catch (DivideByZeroException)
+            {
+                Console.WriteLine("divide by zero}");
 
-            decimal total = p / (r - g) * (decimal)(1 - Math.Pow((double)((1 + g) / (1 + r)), n));
+            }
 
 
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Present value : ${0}", total);
-            Console.ResetColor();
-
+          
 
         }
 
@@ -79,6 +85,8 @@ namespace Part_2
             bool res;
             int a;
             res = int.TryParse(input, out a);
+
+         
             if (res == false)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -95,7 +103,7 @@ namespace Part_2
             bool res;
             decimal a;
             res = decimal.TryParse(input, out a);
-           
+
    
             if (res == false )
             {
